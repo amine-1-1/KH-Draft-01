@@ -2478,7 +2478,9 @@ footer .menu li a:hover {
   z-index: -9;
   animation: video 2s linear infinite;
 }
-
+img {
+  max-width: 100%;
+}
 .header-image {
   position: relative;
   padding-top: 80px;
@@ -2517,4 +2519,10 @@ footer .menu li a:hover {
   background: transparent;
   font-size: 40px;
   right: 12%;
+}
+.testimonial-section .single-testimonial .info .image-1 {
+  width: 100%;
+  max-width: 65px;
+  border-radius: 50%;
+  overflow: hidden;
 }
